@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Louis George Cafe';
+    src: url('fonts/Louis George Cafe.ttf') format('truetype');
+}
+
+html, body {
+    font-family: 'Louis George Cafe', sans-serif;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+body {
+    display: flex;           /* establish flex container */
+    flex-direction: column;  /* make main axis vertical */
+    justify-content: center; /* center items vertically, in this case */
+    align-items: center;     /* center items horizontally, in this case */
+}
+
+h1 {
+    font-size: 64px;
+}
+
+p {
+    font-size: 28px;
+}
+
+.center {
+    width: 300px;
+    margin: 5px;
+    text-align: center;     /* will center text in <p>, which is not a flex item */
+}
+
+#salt-div {
+    width: 550px;
+    margin: auto;
+    text-align: center;
+}
+
+#salt {
+    width:200px;
+}
+
+footer p {
+    font-size: 24px;
+}
