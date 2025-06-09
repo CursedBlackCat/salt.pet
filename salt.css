@@ -18,16 +18,15 @@ body {
     align-items: center;     /* center items horizontally, in this case */
 }
 
-h1 {
-    font-size: 64px;
-}
+/*h1 {*/
+/*    font-size: 64px;*/
+/*}*/
 
-p {
-    font-size: 28px;
-}
+/*p {*/
+/*    font-size: 28px;*/
+/*}*/
 
 #salt-div {
-    width: 550px;
     margin: auto;
     text-align: center;
 }
@@ -36,6 +35,6 @@ p {
     width:200px;
 }
 
-footer p {
-    font-size: 24px;
-}
+/*footer p {*/
+/*    font-size: 24px;*/
+/*}*/
