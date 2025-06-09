@@ -26,12 +26,6 @@ p {
     font-size: 28px;
 }
 
-.center {
-    width: 300px;
-    margin: 5px;
-    text-align: center;     /* will center text in <p>, which is not a flex item */
-}
-
 #salt-div {
     width: 550px;
     margin: auto;
